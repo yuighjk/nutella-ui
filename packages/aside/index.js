@@ -1,4 +1,4 @@
-import Aside from './src/main';
+import { default as Aside } from './src/main.vue';
 
 /* istanbul ignore next */
 Aside.install = function(Vue) {

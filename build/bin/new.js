@@ -52,9 +52,9 @@ export default ${ComponentName};`,
   <div class="el-${componentname}"></div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
-  name: 'El${ComponentName}'
+  name: '${ComponentName}'
 };
 </script>`,
   }

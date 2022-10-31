@@ -1,7 +1,9 @@
 {
   "name": "nutella-ui",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -23,6 +25,7 @@
     "ts-jest": "^29.0.3",
     "typescript": "3.3.4000",
     "vite": "^3.1.8",
+    "vite-plugin-dts": "^1.6.6",
     "vue": "^3.2.37"
   },
   "devDependencies": {
@@ -41,6 +44,17 @@
     "vite-plugin-eslint": "^1.8.1",
     "vue-jest": "^5.0.0-alpha.10"
   },
-  "main": "examples/main.js",
-  "license": "MIT"
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "nutella-ui",
+    "vue3组件库",
+    "vue3+vite"
+  ],
+  "author": "yyy",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts"
 }

@@ -2,8 +2,8 @@
   <div class="el-input"></div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
-  name: 'ElInput'
+  name: 'Input'
 };
 </script>

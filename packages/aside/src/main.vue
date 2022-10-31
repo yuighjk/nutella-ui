@@ -2,8 +2,8 @@
   <div class="el-aside"></div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
-  name: 'ElAside'
+  name: 'Aside'
 };
 </script>
